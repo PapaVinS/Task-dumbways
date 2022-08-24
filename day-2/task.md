@@ -46,31 +46,27 @@ antara lain read, write, dan execute
 
 # Step 1
 
-Pertama kita install OpenSSH server terlebih dahulu dengan command sudo
-apt install openssh-server
+Pertama kita install OpenSSH server terlebih dahulu dengan command `sudo
+apt install openssh-server`
 
-![](./images/media/image1.png){width="5.226442475940507in"
-height="3.544775809273841in"}
+![](./images/media/image1.png)
 
 Bila proses instalasi selesai, aktifkan dahulu service SSH dengan
 command
 
-sudo systemctl enable ssh
+`sudo systemctl enable ssh`
 
-![](./images/media/image2.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+![](./images/media/image2.png)
 
 Kemudian ubah permission UFW SSH menjadi allow agar remote server bisa
-login dengan command sudo ufw allow ssh
+login dengan command `sudo ufw allow ssh`
 
-![](./images/media/image3.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+![](./images/media/image3.png)
 
 # Step 2
 
-Masukkan command sudo nano /etc/netplan/00-installer-config.yaml
-![](./images/media/image4.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+Masukkan command `sudo nano /etc/netplan/00-installer-config.yaml`
+![](./images/media/image4.png)
 
 # Step 3
 
@@ -78,26 +74,23 @@ Isikan parameter IP, gateway, dan DNS sesuai kebutuhan. Bila selesai
 save dengan menekan ctrl+o atau exit dan save dengan menekan ctrl + X
 lalu yes.
 
-![](./images/media/image5.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+![](./images/media/image5.png)
 
 # Step 4
 
 Kemudian apply parameter tadi yang sudah diisi dengan command
 
-Sudo netplan apply
+`Sudo netplan apply`
 
-![](./images/media/image6.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+![](./images/media/image6.png)
 
 # Step 5
 
 Login SSH dengan IP yang sudah dirubah tadi
 
-Ssh <papavins@192.168.1.100>
+`Ssh <papavins@192.168.1.100>`
 
-![](./images/media/image7.jpeg){width="2.3805971128608925in"
-height="4.760851924759405in"}
+![](./images/media/image7.jpeg)
 
 # Step 6
 
@@ -106,106 +99,94 @@ terinstall maka bisa menggunakan command
 
 Sudo apt install inetutils-traceroute
 
-![](./images/media/image8.jpeg){width="2.962687007874016in"
-height="5.924948600174978in"}
+![](./images/media/image8.jpeg)
 
-#Instalasi Apache2 dan LocalTunnel
+# Instalasi Apache2 dan LocalTunnel
 
 # Step 1
 
 Install apache2 dengan command
 
-sudo apt-get install apache2
+`sudo apt-get install apache2`
 
-![](./images/media/image9.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+![](./images/media/image9.png)
 
 # Step 2
 
 Kemudian cek status keaktifan apache2, bila service apache2 berjalan
 akan muncul status active (running). Masukkan command
 
-systemctl status apache2
+`systemctl status apache2`
 
-![](./images/media/image10.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+![](./images/media/image10.png)
 
 # Step 3
 
 Cek apakah service apache2 berjalan dengan memasukkan IP melalui browser
 
-![](./images/media/image11.jpeg){width="4.836111111111111in"
-height="9.671527777777778in"}
+![](./images/media/image11.jpeg)
 
 # Step 4
 
 Kemudian untuk instalasi localtunnel pastikan curl sudah terinstall
 dengan command
 
-Curl
+`Curl`
 
-![](./images/media/image12.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+![](./images/media/image12.png)
 
 Bila not found, lakukan instalasi curl dengan command
 
-sudo apt-get install curl
+`sudo apt-get install curl`
 
-![](./images/media/image13.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+![](./images/media/image13.png)
 
 # Step 5
 
 Setelah itu install node.js agar localtunnel bisa menjalankan kodenya,
 caranya dengan menginstall nvm dengan command
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh
-\| bash
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh
+| bash`
 
-![](./images/media/image14.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+![](./images/media/image14.png)
 
 # Step 6
 
 Jika sudah install node versi 14 dengan command
 
-nvm install 14
+`nvm install 14`
 
-![](./images/media/image15.png){width="5.534529746281715in"
-height="3.753731408573928in"}
+![](./images/media/image15.png)
 
 # Step 7
 
 Kemudian cek versi node yang sudah terinstal dengan command
 
-Npm -v
+`Npm -v`
 
-Node -v
+`Node -v`
 
-![](./images/media/image16.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+![](./images/media/image16.png)
 
 # Step 8
 
 Install localtunnel dengan command
 
-npm install -g localtunnel
+`npm install -g localtunnel`
 
-![](./images/media/image17.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+![](./images/media/image17.png)
 
 # Step 9
 
 Buat tunnel http apache port 80 dengan command
 
-lt \\\--port 80
+`lt \\\--port 80`
 
-![](./images/media/image18.png){width="6.261111111111111in"
-height="4.246527777777778in"}
+![](./images/media/image18.png)
 
 # Step 10
 
 Cek URL yang diberikan kedalam browser
 
-![](./images/media/image19.png){width="6.261111111111111in"
-height="3.589583333333333in"}
+![](./images/media/image19.png)
