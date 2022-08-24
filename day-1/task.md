@@ -12,7 +12,7 @@ monitoring, dan developing infrastruktur pada suatu produk aplikasi
 Download file iso ubuntu server
 dari <https://ubuntu.com/download/server>
 
-![](./images/media/image1.png
+![](./images/media/image1.png)
 
 Step 2
 
