@@ -48,7 +48,7 @@ Buat file index.js kemudian edit dengan text editor dengan command
 
 Masukkan script dibawah kemudian save
 
-`const express = require(\"express\");
+const express = require(\"express\");
 
 const app = express();
 
@@ -58,7 +58,7 @@ app.get(\"/\", (req, res) =\> {
 
 res.send(\"Hello World!\");
 
-});`
+});
 
 ![](./images/media/image5.png)
 
@@ -91,8 +91,7 @@ Kemudian masukkan command
 `rm -rf /usr/local/go && tar -C /usr/local -xzf
 go1.16.5.linux-amd64.tar.gz && exit`
 
-![](./images/media/image9.png){width="4.633333333333334in"
-height="3.1416666666666666in"}
+![](./images/media/image9.png)
 
 ## Step 2
 
