@@ -167,11 +167,11 @@ dengan command
 `pip install flask`
 ![](./images/media/image18.png)
 
-# Step 3
+## Step 3
 
 buat file index.py kemudian isikan dengan script
 
-`from flask import Flask
+from flask import Flask
 
 app = Flask(\_\_name\_\_)
 
@@ -183,10 +183,9 @@ return \"Hello World\"
 
 if \_\_name\_\_ == \"\_\_main\_\_\":
 
-app.run()`
+app.run()
 
-![](./images/media/image19.png){width="6.268055555555556in"
-height="4.25in"}*Pada akhir script app.run() gunakan
+![](./images/media/image19.png)*Pada akhir script app.run() gunakan
 app.run(host="0.0.0.0") untuk menarget IP address dikarenakan flask
 secara default menarget localhost. Maksud dari 0.0.0.0 adalah alamat
 non-routable yang menggambarkan target yang tidak valid atau tidak
