@@ -74,7 +74,7 @@ Isikan title ssh keys dan paste key public yang sudah digenerate tadi
 
 ![](./images/media/image9.png)
 
-Step 8
+## Step 8
 
 Lakukan cek koneksi ke github menggunakan command
 
