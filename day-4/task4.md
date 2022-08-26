@@ -184,6 +184,6 @@ Lalu cek daftar branch `Git branch -a`
 
 Untuk memilih antar branch menggunakan command
 
-`Git checkout \<nama branch\>`
+`Git checkout <nama branch>`
 
 ![](./images/media/image2.png)
