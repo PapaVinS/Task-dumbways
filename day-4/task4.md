@@ -42,7 +42,7 @@ Mengisi email github dan username github dengan command
 
 ## Step 3
 
-Membuat key SSH dengan command ssh-keygen
+Membuat key SSH dengan command `ssh-keygen`
 
 ![](./images/media/image5.png)
 
