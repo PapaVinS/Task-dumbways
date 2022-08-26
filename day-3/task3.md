@@ -158,8 +158,9 @@ Kemudian install package manager python pip dengan menggunakan command
 
 `sudo apt install python3-pip`
 
-![](./images/media/image17.png){width="6.268055555555556in"
-height="4.25in"}Step 2
+![](./images/media/image17.png)
+
+## Step 2
 
 Buat aplikasi web dengan framework flask, untuk instalasinya melalui pip
 dengan command
