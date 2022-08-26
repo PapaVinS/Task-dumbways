@@ -129,9 +129,9 @@ Step 5
 Jalankan aplikasi dengan command
 `go run index.go`
 
-g![](./images/media/image14.png)
+![](./images/media/image14.png)
 
-Step 6
+## Step 6
 
 Build aplikasi dengan command
 
