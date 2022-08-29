@@ -14,8 +14,7 @@ Step pertama lakukan create fork repository wayhub-frontend dengan
 membuka repository github
 https://github.com/dumbwaysdev/wayshub-frontend
 
-![](./images/media/image1.png){width="6.268055555555556in"
-height="2.921527777777778in"}
+![](./images/media/image1.png)
 
 ## Step 2
 
