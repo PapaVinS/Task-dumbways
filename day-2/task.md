@@ -181,7 +181,7 @@ Install localtunnel dengan command
 
 Buat tunnel http apache port 80 dengan command
 
-`lt \\\--port 80`
+`lt --port 80`
 
 ![](./images/media/image18.png)
 
