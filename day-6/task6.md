@@ -65,11 +65,13 @@ standar.
 
 Kita buat file baru kemudian isi script sebagai berikut
 
-`#!/bin/bash
+```
+#!/bin/bash
 
 sudo apt-get -y update
 
-sudo apt-get -y upgrade`
+sudo apt-get -y upgrade
+```
 
 ![](./images/media/image9.png)
 
