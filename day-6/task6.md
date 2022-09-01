@@ -59,9 +59,9 @@ standar.
 
 ![](./images/media/image8.png)
 
-Membuat script bash update dan upgrade serderhana
+## Membuat script bash update dan upgrade serderhana
 
-# Step 1
+## Step 1
 
 Kita buat file baru kemudian isi script sebagai berikut
 
