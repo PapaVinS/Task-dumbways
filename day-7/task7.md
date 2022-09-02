@@ -109,8 +109,8 @@ Jika sudah kita cek status config nginx apakah sudah benar denga command
 ![](./images/media/image15.png)
 
 Berikutnya kita start PM2 untuk testing apakah nginx berjalan, kita
-masuk kedalam instance multipass app1 lalu masukkan command pm2 start
-`npm --name "wayshub" -- start`
+masuk kedalam instance multipass app1 lalu masukkan command `pm2 start
+npm --name "wayshub" -- start`
 ![](./images/media/image16.png)
 
 Jika sudah semua maka halaman web dapat diakses dengan nama domain
