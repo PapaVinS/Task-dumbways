@@ -111,10 +111,10 @@ Kita ikuti ketentuan environment dari file readme.md
 Kita copy .env.example ke .env
 
 ![](./images/media/image13.png)
+![](./images/media/image14.jpeg)
 
 Kita sesuaikan isi file
 config.json
-![](./images/media/image14.jpeg)
 
 ## Step 3
 
