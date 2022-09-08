@@ -113,7 +113,8 @@ Kita copy .env.example ke .env
 ![](./images/media/image13.png)
 
 Kita sesuaikan isi file
-config.json![](./images/media/image14.jpeg)
+config.json
+![](./images/media/image14.jpeg)
 
 ## Step 3
 
