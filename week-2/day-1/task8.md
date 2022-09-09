@@ -154,8 +154,9 @@ Terus kita coba akses login ke server nginx nya
 ## Step 2
 
 Kita login dan masuk ke dashboard cloudflare kemudian di bagian menu
-kiri atas kita pilih
-DNS![](./images/media/image21.png)
+kiri atas kita pilih DNS
+
+![](./images/media/image21.png)
 
 Setelah itu kita klik add record kemudian kita isi nama dns nya dan Ipv4
 address kita isi IP server nginx kita
