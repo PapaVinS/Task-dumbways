@@ -164,7 +164,7 @@ address kita isi IP server nginx kita
 
 ## Step 3
 
-Setelah itu kita install nginx di dalam server s`udo apt-get update
+Setelah itu kita install nginx di dalam server `sudo apt-get update
 
 sudo apt-get install nginx`
 
